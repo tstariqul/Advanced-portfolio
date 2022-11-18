@@ -1,0 +1,40 @@
+.mobile {
+  background-color: #ffffff; 
+  height: 90vh;
+  width: 0vw 90vw;
+  right: 0px;
+  margin-right: 0vh;
+  position: absolute;
+  padding: 15px 30px;
+  top: -0.5px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  z-index: 1;
+}
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 40px;
+}
+
+.mobile-options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 0.5px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.mobile-option {
+  font-size: 24px;
+  margin: 15px 0px;
+  display: flex;
+}
+.mobile-option a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
