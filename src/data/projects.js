@@ -1,4 +1,6 @@
+// id, title, about, tags, demo, github, image
 export const ProjectData = [
+ 
   {
     id: 1,
     title: "Random Project 2",

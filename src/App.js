@@ -35,7 +35,7 @@ const App = () => {
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
-                    fpsLimit: 100,
+                    fpsLimit: 150,
                     interactivity: {
                         events: {
                             onClick: {
@@ -66,7 +66,7 @@ const App = () => {
                             color: "#951D25",
                             distance: 150,
                             enable: true,
-                            opacity: 0.5,
+                            opacity: 0.3,
                             width: 1,
                         },
                         collisions: {

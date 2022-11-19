@@ -74,10 +74,10 @@ const AnchorComponent = (props) => {
             <Slider ref={ref}>
                 {
                     [...Array(props.number)].map((x,id) => {
-                        return <Link key={id} width={17} height={26} fill='currentColor' className="chain" />
+                        return <Link key={id} width={18} height={26} fill='currentColor' className="chain" />
                     })
                 }
-                <Anchor width={45} height={45} fill='currentColor'/>
+                <Anchor width={35} height={45} fill='currentColor'/>
             </Slider>
         </Container>
     )

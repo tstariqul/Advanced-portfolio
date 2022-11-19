@@ -6,8 +6,9 @@ const Box = styled.div`
 display:flex;
 cursor:pointer;
 position: absolute;
+padding-left: 2%;
 
-top:1.1rem;
+top:1.7rem;
 z-index:10;
 
 &>*:nth-child(1){
@@ -44,7 +45,7 @@ border: 1px solid ${props => props.theme.body};
 
 animation:${play} 1s ease infinite;
 animation-play-state: ${props => props.click ? "running" : "paused"};
-height: 0.5rem;
+height: 0.9rem;
 width: 1px;
 margin:0 0.1rem
 `

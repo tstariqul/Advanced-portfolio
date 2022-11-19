@@ -9,6 +9,7 @@
   }
   .research-photo {
     width: 40%;
+    border-radius: 4%;
   }
   .research-info {
     margin-right: 24px;
@@ -57,7 +58,8 @@
   }
   @media only screen and (max-width: 720px) {
     .research-photo {
-      width: 70%;
+      width: 50%;
+      border-radius: 4%;
     }
     .research-card {
       flex-direction: column-reverse;

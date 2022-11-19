@@ -7,8 +7,21 @@
   margin: 16px 0px;
   padding: 8px 0px;
 }
+
+.button {
+  width: 70px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: #0d1117;
+  border: 1px solid rgb(49, 54, 61);
+  color: rgba(255, 255, 255, 0.5);
+  color: rgb(179, 178, 178) !important;
+}
+
 .project-photo {
   width: 40%;
+  border-radius: 4%;
 }
 .project-info {
   margin-right: 24px;
@@ -57,7 +70,8 @@
 }
 @media only screen and (max-width: 720px) {
   .project-photo {
-    width: 70%;
+    width: 50%;
+    border-radius: 4%;
   }
   .project-card {
     flex-direction: column-reverse;

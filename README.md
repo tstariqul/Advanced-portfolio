@@ -8,6 +8,7 @@ Co-curricular & Accomplish­ments -
 
 
 project slide button ok
+scoll animation make good aos
 header ok with all problem solve
 resume thing add, resume pdf in drive
 console ok
