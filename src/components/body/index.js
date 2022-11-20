@@ -11,6 +11,7 @@ import Contact from "./contact/index";
 import Footer from "../footer/index";
 
 function Body() {
+
   return (
     <div className="body">
       <section id="about">

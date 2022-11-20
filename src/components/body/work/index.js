@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 import { WorkData } from "../../../data/work";
 import WorkCard from "./work-card";
 import "./work.css";
@@ -12,8 +12,14 @@ function Work() {
       <Separator />
       <label className="rock-title">Work Experience💼 (≈2.5 Years) </label>
       <div data-aos="fade-up-right" className="work-list">
-        {data.map((item) => {
-          return <WorkCard item={item} />;
+        {data.map((item, seework) => {
+          return (
+            <div key={seework}>
+                          <WorkCard item={item} />;
+            </div>
+          )
+          
+
         })}
       </div>
     </div>

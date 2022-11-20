@@ -1,6 +1,6 @@
 import React from "react";
 import "./project-card.css";
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
 
 function ProjectCard({ project }) {
@@ -32,7 +32,7 @@ function ProjectCard({ project }) {
           })}
         </div>
       </div>
-      <img src={project.image} className="project-photo" />
+      <img src={project.image} className="project-photo" alt="project"/>
     </div>
   );
 }

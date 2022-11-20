@@ -4,6 +4,9 @@
 
   width: 100%;
 }
+.skilltext{
+  text-align: justify;
+}
 .skills-section {
   display: flex;
   justify-content: space-between;

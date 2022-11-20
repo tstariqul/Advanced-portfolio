@@ -1,12 +1,12 @@
-import React, {useEffect} from "react";
+import React from "react";
 import "./work-card.css";
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
 
 function WorkCard({ item }) {
   return (
     <div className="work-card" data-aos="zoom-out">
-      <img src={item.companyLogo} className="work-logo" />
+      <img src={item.companyLogo} className="work-logo" alt="work"/>
       <div className="work-info">
         <label className="company-name">{item.company}</label>
         <div className="work-dates">

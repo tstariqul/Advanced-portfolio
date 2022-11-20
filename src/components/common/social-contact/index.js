@@ -5,13 +5,15 @@ function SocialContact() {
   const data = SocialData;
   return (
     <div className="social-contact">
-      {data.map((item) => {
+      {data.map((item, seesocial) => {
         return (
+          <div key={seesocial}>
           <a href={item.link}>
             <div className="social-icon-div">
-              <img src={item.icon} className="social-icon" />
+              <img src={item.icon} className="social-icon" alt="social"/>
             </div>
           </a>
+          </div> 
         );
       })}
     </div>

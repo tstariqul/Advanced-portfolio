@@ -8,8 +8,13 @@ import { loadFull } from "tsparticles";
 import GoToTop from './components/GoToTop';
 import SoundBar from '../src/components/common/SoundBar';
 import AnchorComponent from '../src/components/common/Anchor'
+import ReactGA from 'react-ga';
 
 const App = () => {
+    useEffect(() =>{
+        ReactGA.initialize('UA-249953473-1');
+        ReactGA.pageview('/');
+      }, []);
 
     const [numbers, setNumbers] = useState(0);
 
@@ -23,7 +28,7 @@ const App = () => {
     }, []);
  
     const particlesLoaded = useCallback(async container => {
-        await console.log(container);
+        await console.log("Tariqul Portfolio");
     }, []);
 
     return (

@@ -1,3 +1,6 @@
+
+
+
 Education - 
 Skills - 
 Research & Publication -
@@ -7,8 +10,3 @@ Co-curricular & Accomplish­ments -
     Open Source Contribution -- pdf make to dive
     certificate
 contact
-
-update all  things
-google analytics
-resume thing add, resume update
-console ok

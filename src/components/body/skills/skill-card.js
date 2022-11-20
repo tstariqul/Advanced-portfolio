@@ -1,6 +1,6 @@
 import React from "react";
 import "./skill-card.css";
-import Aos from "aos";
+// import Aos from "aos";
 import "aos/dist/aos.css";
 
 function SkillCard({ skill }) {

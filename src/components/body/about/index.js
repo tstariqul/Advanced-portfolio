@@ -20,9 +20,9 @@ const About = () => {
           My goal is to solve problems in society through technology and contribute to tech companies with bring value.<br /> 
         </div>
         <div className="about-photo">
-          <img data-aos="zoom-in"
+          <img data-aos="zoom-in" alt="about"
             src={require("../../../assets/image/Tariqul.png").default}
-            className="picture"
+            className="picture" 
           />
         </div>
       </div>

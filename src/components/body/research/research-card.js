@@ -29,7 +29,7 @@ function ResearchCard({ research }) {
           })}
         </div>
       </div>
-      <img src={research.image} className="research-photo" />
+      <img src={research.image} className="research-photo" alt="research"/>
     </div>
   );
 }

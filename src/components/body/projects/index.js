@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./projects.css";
 import ProjectCard from "./project-card";
 import { ProjectData } from "../../../data/projects";
 import Separator from "../../common/separator/index";
 
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -32,9 +32,9 @@ import "slick-carousel/slick/slick-theme.css";
 // }
 
 function Projects() {
-  const slider = React.useRef(null)
+  // const slider = React.useRef(null)
 
-  const settings = {
+  // const settings = {
     // dots: false,
     // arrows: false,
     // infinite: true,
@@ -56,7 +56,7 @@ function Projects() {
     //     console.log("after change", currentSlide);
     //   }
 
-  };
+  // };
 
   const data = ProjectData;
 
