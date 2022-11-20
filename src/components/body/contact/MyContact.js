@@ -1,6 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './MyContact.css';
 import emailjs from '@emailjs/browser';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 const Result = () =>{
   return(
@@ -9,6 +12,9 @@ const Result = () =>{
 }
 
 export default function MyContact(props) {
+  useEffect(() => {
+    Aos.init({duration: 1000});
+}, []);
   
   const [result, showResult] = useState(false);
   
@@ -30,24 +36,24 @@ export default function MyContact(props) {
 
   return (
     <form action="" onSubmit={sendEmail}>
-        <div className='box'>
+        <div className='box' data-aos="zoom-out">
               <div className="formWord">
                 <h2>Say Hello!</h2>
 
-                <span>Full Name</span>
+                <span className='names'>Full Name</span>
                 <br />
                 <input className="input100" placeholder='Jenson'
                 type="text" name="from_name" required />
                 <br />
 
-                <span>Enter Email</span>
+                <span className='names'>Enter Email</span>
                 <input className="input100" placeholder='jenson@gmail.com'
                 type="text" name="from_email" required />
                 
               </div>
             
               <div className="formWord">
-                <span>Message</span>
+                <span className='names'>Your Message</span>
                 
                 <textarea name="message" 
                 placeholder='I want you to join my company!' 

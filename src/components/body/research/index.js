@@ -15,10 +15,12 @@ function Research() {
     dots: true,
     infinite: true,
     fade: true,
-    speed: 250,
+    speed: 1,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    autoplaySpeed: 5000,
+
     // vertical: true,
     //   verticalSwiping: true,
     //   swipeToSlide: true,
@@ -34,9 +36,9 @@ function Research() {
   return (
     <div className="research">
       <Separator />
-      <label className="section-title">Research & Publication🔬 - Journals(3) Conferences(10), Papers Under Review(3), Thesis(2), Book(1)</label>
+      <label className="search-title">Research & Publication🔬 - Journals(3) Conferences(10), Papers Under Review(3), Thesis(2), Book(1)</label>
       <><br />
-      Research Topics:
+     <b>Research Topics:</b>
         Artificial Intelligence,
         Big Data,
         Cloud Computing,

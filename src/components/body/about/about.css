@@ -1,6 +1,6 @@
 .about {
   /* height: 75vh; */
-  padding-bottom: 48px;
+  padding-bottom: 30px;
 }
 .about-top {
   display: flex;
@@ -12,14 +12,20 @@
 }
 .about-info {
 
-  font-size: 45px;
+  font-size: 35px;
+  text-align: justify;
   font-weight: bold; 
   font-size: large;
+  margin-bottom: 2%;
   color: rgb(19, 190, 33);
 }
 .info-name {
-  font-size: 32px;
-  color: blue;
+  font-size: 24px;
+  color: rgb(19, 19, 204);
+  text-align: justify;
+}
+.social1{
+  margin-top: 10%;
 }
 @media only screen and (max-width: 720px) {
   .about-top {

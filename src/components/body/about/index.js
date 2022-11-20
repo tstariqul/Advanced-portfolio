@@ -26,6 +26,7 @@ const About = () => {
           />
         </div>
       </div>
+      <SocialContact className="social1"/>
     </div>
   );
 }

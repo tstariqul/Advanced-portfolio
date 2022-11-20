@@ -1,12 +1,14 @@
 import React from "react";
 import "./education-card.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function EducationCard({ item }) {
   return (
-    <div className="education-card">
+    <div className="education-card" data-aos="fade">
       <img src={item.companyLogo} className="education-logo" />
       <div className="education-info">
-        <label className="company-name">{item.company}</label>
+        <label className="edu-name">{item.company}</label>
         <div className="education-dates">
           <label>{item.dateJoining}</label>-<label>{item.dateEnd}</label>
         </div>

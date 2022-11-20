@@ -5,7 +5,7 @@ export const EducationData = [
   {
 
     company: "Daffodil International University",
-    designation: "BACHELOR OF SCIENCE - FIELD OF STUDY COMPUTER SCIENCE AND ENGINEERING - GRADE: 3.80",
+    designation: "Bachelor of  Science - Computer Science and Engineering (CSE) - Grade: 3.73 Out of 4.00",
     dateJoining: "Sep 2018",
     dateEnd: "Aug 2022",
     companyLogo: diu,

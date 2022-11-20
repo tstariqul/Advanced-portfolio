@@ -91,6 +91,11 @@ form button:hover {
 .row{
   margin-top: 3%;
 }
+.names{
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
 @media only screen and (max-width: 720px) {
   .mcrn {
     margin-left: 29%;

@@ -8,7 +8,7 @@ position: relative;
 const Slider = styled.div`
 position: fixed;
 top: 0;
-right: 2rem;
+right: 0rem;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -25,7 +25,7 @@ transform: rotate(135deg);
 const PreDisplay = styled.div`
 position: absolute;
 top:0;
-right: 2rem;
+right: 0rem;
 `
 
 
@@ -69,15 +69,15 @@ const AnchorComponent = (props) => {
         <Container>
         <PreDisplay ref={hiddenRef} className='hidden'>
     
-        <Anchor width={35} height={160} fill='currentColor'/>
+        <Anchor width={25} height={160} fill='currentColor'/>
     </PreDisplay>
             <Slider ref={ref}>
                 {
                     [...Array(props.number)].map((x,id) => {
-                        return <Link key={id} width={18} height={26} fill='currentColor' className="chain" />
+                        return <Link key={id} width={12} height={29} fill='currentColor' className="chain" />
                     })
                 }
-                <Anchor width={35} height={45} fill='currentColor'/>
+                <Anchor width={35} height={20} fill='currentColor'/>
             </Slider>
         </Container>
     )

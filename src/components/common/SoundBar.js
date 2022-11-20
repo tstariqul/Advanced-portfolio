@@ -1,13 +1,12 @@
 import React, { useRef, useState } from 'react'
 import styled, { keyframes } from 'styled-components'
-import music from "../common/audio.mp3"
+import music from "../common/audio.mp3";
 
 const Box = styled.div`
 display:flex;
 cursor:pointer;
 position: absolute;
 padding-left: 2%;
-
 top:1.7rem;
 z-index:10;
 
@@ -60,7 +59,8 @@ const SoundBar = () => {
 
         if(!click){
             ref.current.play();
-        }else{
+        }
+        else{
             ref.current.pause();
         }
     }
@@ -73,7 +73,7 @@ const SoundBar = () => {
             <Line click={click}/>
 
 
-            <audio src={music} ref={ref}  loop />
+            <audio src={music} ref={ref} loop/>
         </Box>
     )
 }

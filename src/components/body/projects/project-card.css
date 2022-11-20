@@ -28,8 +28,11 @@
 }
 
 .project-title {
-  font-size: 20px;
+  font-size: 20px !important;
   font-weight: 600;
+}
+.project-about {
+  text-align: justify;
 }
 
 .project-tags {
@@ -39,7 +42,7 @@
 }
 .tag {
   padding: 4px 8px;
-  background-color: #7fffd4;
+  background-color: #ecc30a;
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
@@ -57,7 +60,7 @@
   justify-content: center;
   align-items: center;
   width: max-content;
-  background-color: aquamarine;
+  background-color: #6fc70b;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 16px;
@@ -70,8 +73,9 @@
 }
 @media only screen and (max-width: 720px) {
   .project-photo {
-    width: 50%;
+    width: 69%;
     border-radius: 4%;
+
   }
   .project-card {
     flex-direction: column-reverse;

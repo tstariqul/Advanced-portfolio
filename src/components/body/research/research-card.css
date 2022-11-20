@@ -13,13 +13,16 @@
   }
   .research-info {
     margin-right: 24px;
+
   }
   
   .research-title {
     font-size: 20px;
     font-weight: 600;
   }
-  
+  .research-about{
+    text-align: justify;
+  }
   .research-tags {
     display: flex;
     max-width: 60%;
@@ -27,7 +30,7 @@
   }
   .tag {
     padding: 4px 8px;
-    background-color: #7fffd4;
+
     border-radius: 4px;
     margin-right: 6px;
     margin-bottom: 4px;
@@ -58,7 +61,7 @@
   }
   @media only screen and (max-width: 720px) {
     .research-photo {
-      width: 50%;
+      width: 69%;
       border-radius: 4%;
     }
     .research-card {

@@ -8,12 +8,12 @@ import ContactForm from './MyContact';
 
 const Contact = () => {
   useEffect(() => {
-    Aos.init({duration: 3000});
+    Aos.init({duration: 1000});
   }, []);
   return (
     <div className="contact">
       <Separator />
-      <label className="section-title">Contact ☏</label>
+      <label className="contact-title">Contact ☏</label>
       <div className="contact-container">
         <div className="contact-left">
           <p data-aos="zoom-in">Don't be stranger! Contact me on any of the platform below⬇️</p>

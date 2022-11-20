@@ -3,6 +3,10 @@
   flex-direction: column;
   flex: 1;
 }
+.contact-title{
+  font-size: 24px;
+  font-weight: bolder;
+}
 .section-title {
   font-size: 32px;
   font-weight: 700;
@@ -18,16 +22,18 @@
   max-width: 60%;
   font-size: 20px;
   text-align: center;
+  font-weight: bold;
 }
 
 .download {
   background-color: aquamarine;
-  padding: 8px 16px;
-  font-size: 24px;
+  padding: 6px 16px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
+  font-weight: bold;
 }
 .download a {
   text-decoration: none;

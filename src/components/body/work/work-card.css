@@ -1,7 +1,7 @@
 .work-card {
   padding: 8px;
 
-  width: 45%;
+  width: 50%;
   margin-top: 16px;
   display: flex;
   justify-content: space-between;
@@ -9,7 +9,8 @@
   flex-direction: row-reverse;
 }
 .work-logo {
-  height: 80px;
+  height: 70px;
+  padding-left: 2%;
 }
 .work-info {
   display: flex;
@@ -17,16 +18,20 @@
   flex-direction: column;
 }
 .work-dates {
-  color: gray;
+  color: rgb(78, 231, 17);
+}
+.company-name{
+  font-weight: bold;
+  font-size: large;
 }
 .work-desc {
-  text-align: left;
+  text-align: justify;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: horizontal;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 80%;
+  max-width: 98%;
 }
 @media only screen and (max-width: 720px) {
   .work-card {

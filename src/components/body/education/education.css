@@ -2,12 +2,21 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 150px;
   }
   .education-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 0px;
+    margin: 22px 0px;
   }
-  
+  .edu-title{
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  @media only screen and (max-width: 720px) {
+    .education {
+      margin-top: 10px;
+    }
+  }

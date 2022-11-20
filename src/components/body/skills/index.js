@@ -14,13 +14,13 @@ function Skills() {
   return (
     <div className="skills">
       <Separator />
-      <label className="section-title" data-aos="zoom-in">Professional Skills🛠️</label>
+      <label className="kill-title" data-aos="zoom-in">Professional Skills🛠️</label>
       <div className="skills-container">
         {data.map((item) => {
           return (
             <div className="skills-section">
               <label className="skills-section-title">{item.type}</label>
-              <div className="skills-list" data-aos="zoom-in">
+              <div className="skills-list">
                 {item.list.map((skill) => {
                   return <SkillCard skill={skill} />;
                 })}

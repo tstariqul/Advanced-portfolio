@@ -4,4 +4,7 @@
   
     flex: 1;
   }
-  
+.search-title{
+  font-size: 23px !important;
+  font-weight: bolder;
+}

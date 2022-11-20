@@ -17,12 +17,12 @@ function ResearchCard({ research }) {
           {research.github && (
             <a className="research-link" href={research.github}>
               <div className="link-button">
-                <i class="devicon-github-original colored"></i> GIthub
+                <i class="devicon-github-original colored"></i> GitHub
               </div>
             </a>
           )}
         </div>
-        <p>{research.about}</p>
+        <p className="research-about">{research.about}</p>
         <div className="research-tags">
           {research.tags.map((tag) => {
             return <label className="tag">{tag}</label>;

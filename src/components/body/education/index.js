@@ -1,15 +1,23 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { EducationData } from "../../../data/education";
 import EducationCard from "./education-card";
 import "./education.css";
 import Separator from "../../common/separator/index";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Education() {
+    useEffect(() => {
+        Aos.init({duration: 3000});
+    }, []);
+
   const data = EducationData;
   return (
     <div className="education">
       <Separator />
-      <label className="section-title">Education🎓 - University, College, School</label>
+      <div data-aos="fade">
+      <label className="edu-title">Education🎓 - University, College, School</label>
+      </div>
       <div className="education-list">
         {data.map((item) => {
           return <EducationCard item={item} />;
