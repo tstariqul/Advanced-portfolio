@@ -3,7 +3,7 @@
   margin-top: 3%;
   border-style: dotted;
   color: #2ee6a8;
-  width: 100%;
+  width: 95%;
 }
 
 .form {
@@ -56,7 +56,7 @@ form button:hover {
   color: black;
 }
 .formWord {
-  width: 85%;
+  width: 100%;
   padding: 5%;
 }
 .formWord h2 {

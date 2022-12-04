@@ -13,13 +13,7 @@ function Work() {
       <label className="rock-title">Work Experience💼 (≈2.5 Years) </label>
       <div data-aos="fade-up-right" className="work-list">
         {data.map((item, seework) => {
-          return (
-            <div key={seework}>
-                          <WorkCard item={item} />;
-            </div>
-          )
-          
-
+          return <WorkCard item={item} />;
         })}
       </div>
     </div>

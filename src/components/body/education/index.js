@@ -19,13 +19,8 @@ function Education() {
       <label className="edu-title">Education🎓 - University, College, School</label>
       </div>
       <div className="education-list">
-        {data.map((item, seeedu) => {
-          return (
-            <div key={seeedu}>
-            <EducationCard item={item}/>;
-            </div>
-          )
- 
+        {data.map((item) => {
+          return <EducationCard item={item}/>;
         })}
       </div>
     </div>

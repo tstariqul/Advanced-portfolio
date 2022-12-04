@@ -25,7 +25,7 @@ transform: rotate(135deg);
 const PreDisplay = styled.div`
 position: absolute;
 top:0;
-right: 0rem;
+right: 0.1rem;
 `
 
 
